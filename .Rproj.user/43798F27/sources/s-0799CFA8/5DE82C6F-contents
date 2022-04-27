@@ -1,0 +1,19 @@
+---
+title: "Siluriformes"
+output:
+  html_document:
+    df_print: paged
+    code_folding: hide
+---
+
+## Siluriformes families {.tabset}
+
+### Ictaluridae
+```{r fig.align ='center', fig.cap="https://fishbase.ca/photos/PicturesSummary.php?StartRow=1&ID=291&what=species&TotRec=6"}
+knitr::include_graphics("pictures/Black Bullhead.jpg")
+```
+
+### Ariidae
+```{r out.width=c('50%','50%'), fig.show='hold', fig.cap="https://fishbase.ca/photos/PicturesSummary.php?id=13480&picname=Hesee_u1.jpg&what=species"}
+knitr::include_graphics("pictures/sea catfish.jpg")
+```

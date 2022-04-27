@@ -1,0 +1,26 @@
+name: "my-website"
+
+navbar:
+  title: "Fish Taxonomy"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Esociformes"
+      href: esociformes.html
+    - text: "Salmoniformes"
+      href: salmoniformes.html
+    - text: "More Orders"
+      menu:
+        - text: "Osteoglossiformes"
+          href: osteoglossiformes.html
+        - text: "Siluriformes"
+          href: siluriformes.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: mailto:<koscielj@myumanitoba.ca>
+    - icon: fa-github fa-lg
+      href: http://github.com/JonahKoscielny/
+      
+output:
+  html_document:
+    theme: yeti
