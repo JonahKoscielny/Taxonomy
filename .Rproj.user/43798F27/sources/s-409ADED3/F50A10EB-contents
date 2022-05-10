@@ -21,30 +21,4 @@ knitr::include_graphics("pictures/mooneye.jpg")
 knitr::include_graphics("pictures/arowana.jpg")
 knitr::include_graphics("pictures/arapaima.jpg")
 ```
-## Family Esocidae
-
-The key identifying features of family Esocidae is a elongate body and head with a broad snout. The elongate head is what seperates family Esocidae from family Umbridae. The anal fins and dorsal fins are set well back on the body. There is no adipose fin present.
-
-
-### Northern Pike (*Esox lucius*)
-```{r class.source="badCode", fig.align ='center', fig.cap="https://www.fishbase.de/photos/PicturesSummary.php?StartRow=8&ID=258&what=species&TotRec=20"}
-knitr::include_graphics("pictures/Northern Pike.jpg")
-```
-
-### Muskellunge (*Esox masquinongy*)
-```{r fig.align='center', fig.cap="https://www.fishbase.de/photos/PicturesSummary.php?StartRow=0&ID=2711&what=species&TotRec=6"}
-knitr::include_graphics("pictures/Muskellunge.jpg")
-```
-
-To distinguish between Northern Pike and Muskellunge, inspect the side of the body. If the body has a dark background with light markings, it is a Northern Pike. If the body has a light background with dark markings, it is a Muskellunge.
-
-## Family Umbridae
-The anal fins and dorsals fins are set well back on the body and no adipose fin is present, similar to family Esocidae.These fish differ from family Esocidae because there heads are not as pronounced (torpedolike)
-
-### Central mudminnow (*Umbra limi*)
-```{r fig.align='center', fig.cap="https://mdc.mo.gov/discover-nature/field-guide/central-mudminnow"}
-knitr::include_graphics("pictures/Central_Mudminnow.webp")
-```
-</div>
-
 </div>
