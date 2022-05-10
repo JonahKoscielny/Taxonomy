@@ -1,7 +1,7 @@
----
-  title: "Fish Taxonomy"
----
+
 <div style="background-color:rgba(255, 255, 255, 0.8); padding:40px 0;">
+# Fish Taxonomy
+
 Identifying various fish species in different families.
 </div>
 

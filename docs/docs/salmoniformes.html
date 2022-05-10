@@ -11,7 +11,7 @@
 
 
 
-<title>Salmoniformes</title>
+<title>salmoniformes.knit</title>
 
 <script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -30,7 +30,6 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<script src="site_libs/navigation-1.1/codefolding.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
@@ -63,6 +62,7 @@ if (window.hljs) {
 
 
 
+<link rel="stylesheet" href="CSSBackgrounds.css" type="text/css" />
 
 
 
@@ -224,9 +224,6 @@ $(document).ready(function () {
 </style>
 
 <!-- code folding -->
-<style type="text/css">
-.code-folding-btn { margin-bottom: 4px; }
-</style>
 
 
 
@@ -298,22 +295,13 @@ $(document).ready(function () {
 
 <div id="header">
 
-<div class="btn-group pull-right float-right">
-<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
-<ul class="dropdown-menu dropdown-menu-right" style="min-width: 50px;">
-<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
-<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
-</ul>
-</div>
 
 
-
-<h1 class="title toc-ignore">Salmoniformes</h1>
 
 </div>
 
 
-<div id="order-salmoniformes" class="section level1">
+<div id="order-salmoniformes" class="section level1" style="background-color:rgba(255, 255, 255, 0.8); padding:40px 0;">
 <h1>Order Salmoniformes</h1>
 <div id="family-salmonidae" class="section level2">
 <h2>Family Salmonidae</h2>
@@ -321,7 +309,6 @@ $(document).ready(function () {
 <h3>Subfamily Salmoninae</h3>
 <div id="cutthroat-trout-oncorhynchus-mykiss" class="section level4">
 <h4>Cutthroat trout (<em>Oncorhynchus mykiss</em>)</h4>
-<pre class="r"><code>knitr::include_graphics(&quot;pictures/cutthroat trout.jpg&quot;)</code></pre>
 <div class="figure" style="text-align: center">
 <img src="pictures/cutthroat%20trout.jpg" alt="https://www.fishbase.de/photos/PicturesSummary.php?StartRow=7&amp;ID=239&amp;what=species&amp;TotRec=21"  />
 <p class="caption">
@@ -331,7 +318,6 @@ $(document).ready(function () {
 </div>
 <div id="rainbow-trout-oncorhynchus-clarkia" class="section level4">
 <h4>Rainbow trout (<em>Oncorhynchus clarkia</em>)</h4>
-<pre class="r"><code>knitr::include_graphics(&quot;pictures/rainbow trout.jpg&quot;)</code></pre>
 <div class="figure" style="text-align: center">
 <img src="pictures/rainbow%20trout.jpg" alt="https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/cosewic-assessments-status-reports/westslope-cutthroat-trout-2016.html"  />
 <p class="caption">
@@ -342,10 +328,7 @@ $(document).ready(function () {
 </div>
 <div id="chinook-salmon-oncorhynchus-tshawytscha" class="section level4">
 <h4>Chinook salmon (<em>Oncorhynchus tshawytscha</em>)</h4>
-<p>To identify chinook salmon from other closely related species, observe the mouth and caudal fin. Chinook salmon have black mouths with black gums and small round spots on their caudal fin.</p>
-<pre class="r"><code>knitr::include_graphics(&quot;pictures/chinook.jpg&quot;)
-knitr::include_graphics(&quot;pictures/chinook tail.jpg&quot;)
-knitr::include_graphics(&quot;pictures/chinook mouth.jpg&quot;)</code></pre>
+To identify chinook salmon from other closely related species, observe the mouth and caudal fin. Chinook salmon have black mouths with black gums and small round spots on their caudal fin.
 <div class="figure">
 <img src="pictures/chinook.jpg" alt="https://www.wikiwand.com/en/Chinook_salmon, https://www.eopugetsound.org/magazine/pcb-blackmouth" width="33%" /><img src="pictures/chinook%20tail.jpg" alt="https://www.wikiwand.com/en/Chinook_salmon, https://www.eopugetsound.org/magazine/pcb-blackmouth" width="33%" /><img src="pictures/chinook%20mouth.jpg" alt="https://www.wikiwand.com/en/Chinook_salmon, https://www.eopugetsound.org/magazine/pcb-blackmouth" width="33%" />
 <p class="caption">
@@ -390,11 +373,6 @@ $(document).ready(function () {
 </script>
 
 <!-- code folding -->
-<script>
-$(document).ready(function () {
-  window.initializeCodeFolding("hide" === "show");
-});
-</script>
 
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
