@@ -11,7 +11,7 @@
 
 
 
-<title>Esociformes</title>
+<title>esociformes.knit</title>
 
 <script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -30,7 +30,6 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<script src="site_libs/navigation-1.1/codefolding.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
@@ -63,6 +62,7 @@ if (window.hljs) {
 
 
 
+<link rel="stylesheet" href="CSSBackgrounds.css" type="text/css" />
 
 
 
@@ -224,9 +224,6 @@ $(document).ready(function () {
 </style>
 
 <!-- code folding -->
-<style type="text/css">
-.code-folding-btn { margin-bottom: 4px; }
-</style>
 
 
 
@@ -298,22 +295,13 @@ $(document).ready(function () {
 
 <div id="header">
 
-<div class="btn-group pull-right float-right">
-<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
-<ul class="dropdown-menu dropdown-menu-right" style="min-width: 50px;">
-<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
-<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
-</ul>
-</div>
 
 
-
-<h1 class="title toc-ignore">Esociformes</h1>
 
 </div>
 
 
-<div id="order-esociformes" class="section level1">
+<div id="order-esociformes" class="section level1" style="background-color:rgba(255, 255, 255, 0.8); padding:40px 0;">
 <h1>Order Esociformes</h1>
 <p>There are two families in the order Esociformes, Esocidae and Umbridae.</p>
 <div id="family-esocidae" class="section level2">
@@ -321,7 +309,6 @@ $(document).ready(function () {
 <p>The key identifying features of family Esocidae is a elongate body and head with a broad snout. The elongate head is what seperates family Esocidae from family Umbridae. The anal fins and dorsal fins are set well back on the body. There is no adipose fin present.</p>
 <div id="northern-pike-esox-lucius" class="section level3">
 <h3>Northern Pike (<em>Esox lucius</em>)</h3>
-<pre class="r"><code>knitr::include_graphics(&quot;pictures/Northern Pike.jpg&quot;)</code></pre>
 <div class="figure" style="text-align: center">
 <img src="pictures/Northern%20Pike.jpg" alt="https://www.fishbase.de/photos/PicturesSummary.php?StartRow=8&amp;ID=258&amp;what=species&amp;TotRec=20"  />
 <p class="caption">
@@ -331,7 +318,6 @@ $(document).ready(function () {
 </div>
 <div id="muskellunge-esox-masquinongy" class="section level3">
 <h3>Muskellunge (<em>Esox masquinongy</em>)</h3>
-<pre class="r"><code>knitr::include_graphics(&quot;pictures/Muskellunge.jpg&quot;)</code></pre>
 <div class="figure" style="text-align: center">
 <img src="pictures/Muskellunge.jpg" alt="https://www.fishbase.de/photos/PicturesSummary.php?StartRow=0&amp;ID=2711&amp;what=species&amp;TotRec=6"  />
 <p class="caption">
@@ -346,7 +332,6 @@ $(document).ready(function () {
 <p>The anal fins and dorsals fins are set well back on the body and no adipose fin is present, similar to family Esocidae.These fish differ from family Esocidae because there heads are not as pronounced (torpedolike)</p>
 <div id="central-mudminnow-umbra-limi" class="section level3">
 <h3>Central mudminnow (<em>Umbra limi</em>)</h3>
-<pre class="r"><code>knitr::include_graphics(&quot;pictures/Central_Mudminnow.webp&quot;)</code></pre>
 <div class="figure" style="text-align: center">
 <img src="pictures/Central_Mudminnow.webp" alt="https://mdc.mo.gov/discover-nature/field-guide/central-mudminnow"  />
 <p class="caption">
@@ -390,11 +375,6 @@ $(document).ready(function () {
 </script>
 
 <!-- code folding -->
-<script>
-$(document).ready(function () {
-  window.initializeCodeFolding("hide" === "show");
-});
-</script>
 
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

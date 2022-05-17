@@ -11,7 +11,7 @@
 
 
 
-<title>Osteoglossiformes</title>
+<title>osteoglossiformes.knit</title>
 
 <script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -30,7 +30,6 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<script src="site_libs/navigation-1.1/codefolding.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
@@ -63,6 +62,7 @@ if (window.hljs) {
 
 
 
+<link rel="stylesheet" href="CSSBackgrounds.css" type="text/css" />
 
 
 
@@ -224,9 +224,6 @@ $(document).ready(function () {
 </style>
 
 <!-- code folding -->
-<style type="text/css">
-.code-folding-btn { margin-bottom: 4px; }
-</style>
 
 
 
@@ -298,37 +295,25 @@ $(document).ready(function () {
 
 <div id="header">
 
-<div class="btn-group pull-right float-right">
-<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
-<ul class="dropdown-menu dropdown-menu-right" style="min-width: 50px;">
-<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
-<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
-</ul>
-</div>
 
 
-
-<h1 class="title toc-ignore">Osteoglossiformes</h1>
 
 </div>
 
 
-<div id="osteoglossiformes-families" class="section level2 tabset">
+<div id="osteoglossiformes-families" class="section level2 tabset" style="background-color:rgba(255, 255, 255, 0.8); padding:40px 0;">
 <h2 class="tabset">Osteoglossiformes families</h2>
 <div id="hiodontidae" class="section level3">
 <h3>Hiodontidae</h3>
-<pre class="r"><code>knitr::include_graphics(&quot;pictures/mooneye.jpg&quot;)</code></pre>
 <div class="figure" style="text-align: center">
-<img src="pictures/Mooneye.jpg" alt="https://www.fishbase.de/photos/PicturesSummary.php?StartRow=8&amp;ID=258&amp;what=species&amp;TotRec=20"  />
+<img src="pictures/Mooneye.jpg" alt="https://www.fishbase.de/photos/PicturesSummary.php?id=2667&amp;picname=Hiter_u0.jpg&amp;what=species"  />
 <p class="caption">
-<a href="https://www.fishbase.de/photos/PicturesSummary.php?StartRow=8&amp;ID=258&amp;what=species&amp;TotRec=20" class="uri">https://www.fishbase.de/photos/PicturesSummary.php?StartRow=8&amp;ID=258&amp;what=species&amp;TotRec=20</a>
+<a href="https://www.fishbase.de/photos/PicturesSummary.php?id=2667&amp;picname=Hiter_u0.jpg&amp;what=species" class="uri">https://www.fishbase.de/photos/PicturesSummary.php?id=2667&amp;picname=Hiter_u0.jpg&amp;what=species</a>
 </p>
 </div>
 </div>
 <div id="osteoglossidae" class="section level3">
 <h3>Osteoglossidae</h3>
-<pre class="r"><code>knitr::include_graphics(&quot;pictures/arowana.jpg&quot;)
-knitr::include_graphics(&quot;pictures/arapaima.jpg&quot;)</code></pre>
 <div class="figure">
 <img src="pictures/Arowana.jpg" alt="https://www.fishbase.de/photos/PicturesSummary.php?id=6234&amp;picname=Osbic_u0.jpg&amp;what=species, https://www.fishbase.de/photos/PicturesSummary.php?id=2076&amp;picname=Argig_u1.jpg&amp;what=species" width="50%" /><img src="pictures/Arapaima.jpg" alt="https://www.fishbase.de/photos/PicturesSummary.php?id=6234&amp;picname=Osbic_u0.jpg&amp;what=species, https://www.fishbase.de/photos/PicturesSummary.php?id=2076&amp;picname=Argig_u1.jpg&amp;what=species" width="50%" />
 <p class="caption">
@@ -371,11 +356,6 @@ $(document).ready(function () {
 </script>
 
 <!-- code folding -->
-<script>
-$(document).ready(function () {
-  window.initializeCodeFolding("hide" === "show");
-});
-</script>
 
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

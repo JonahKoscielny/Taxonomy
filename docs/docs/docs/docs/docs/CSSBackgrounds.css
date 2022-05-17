@@ -1,0 +1,10 @@
+body {
+  background-image: url('https://images.unsplash.com/photo-1544551763-77ef2d0cfc6c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div {
+  background-color: rgba(255, 255, 255, 0.01);
+  padding: 0.25em;
+}
